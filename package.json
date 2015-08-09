@@ -1,0 +1,28 @@
+{
+  "name": "wikibot",
+  "version": "1.0.0",
+  "description": "Slack integration to fetch entries from wikipedia",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chanson/wikibot.git"
+  },
+  "author": "Corey Hanson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanson/wikibot/issues"
+  },
+  "homepage": "https://github.com/chanson/wikibot",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "path": "^0.11.14",
+    "querystring": "^0.2.0",
+    "request": "^2.60.0"
+  }
+}
